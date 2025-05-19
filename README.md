@@ -1,23 +1,49 @@
-Your README.md must include the following main sections:
+# AI-Driven Quality Control System for Manufacturing
 
-Features – Key functionalities of your project
+## 🚀 Objective
+To build an intelligent, real-time quality control system for manufacturing industries using Artificial Intelligence. The system automates defect detection in products based on dimensional, weight, and temperature parameters using sensor data and machine learning.
 
-Technology Used – Languages, tools, libraries used
+---
 
-How It Works – Short explanation of your project workflow
+## 🌟 Features
 
-Data Collection – Source of dataset, how you got it
+- ✅ Real-time defect detection using sensor data (width, weight, temperature)
+- 📊 Live dashboard displaying model accuracy, responsiveness, and prediction speed
+- 🛠 Integration-ready with existing production lines
+- 🔐 Product-level traceability with timestamped logs
+- 📩 Alert generation for defective products
+- 🔄 Modular design for future scalability and maintainability
 
-(Optional but recommended):
+---
 
-* Objective
+## 🛠 Technology Used
 
-* Controls
+- Programming Language: Python
+- ML Library: Scikit-learn (Random Forest)
+- Data Handling: Pandas, NumPy
+- Visualization: Matplotlib, Seaborn
+- Jupyter Notebook: For code execution and visualization
+- Version Control: Git & GitHub
+- Platform: Local system simulation (future-ready for Raspberry Pi integration)
 
-* ML Techniques Used
+---
 
-* Model Training
+## ⚙ How It Works
 
-* Output Explanation
+1. Data Collection from sensors measuring product parameters (width, weight, temperature).
+2. Preprocessing: Clean and normalize the data.
+3. Model Prediction: Random Forest model classifies products as "Defective" or "Non-Defective".
+4. Visualization: Real-time dashboard updates with accuracy and predictions.
+5. Logging & Alerts: Defects are logged with time and prediction confidence; alerts are generated for quality control staff.
 
-* Demo Video Link or Screenshots    i want read me file based on this tpoics and my phase 5 project
+---
+
+## 📁 Data Collection
+
+- Synthetic + Real Sensor Simulation
+- Data was either simulated or sourced from lab sensors measuring:
+  - Width
+  - Weight
+  - Temperature
+- Labeled manually for model training (defective / non-defective)
+-
